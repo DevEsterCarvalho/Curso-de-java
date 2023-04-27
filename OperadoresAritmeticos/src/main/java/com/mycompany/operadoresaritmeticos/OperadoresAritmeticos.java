@@ -25,8 +25,14 @@ public class OperadoresAritmeticos {
         System.out.println(numero);*/
         
         //ex de operadores de atribuição
-        int x = 4;
+        /*int x = 4;
         x += 2; // x = x + 2
-        System.out.println(x);
+        System.out.println(x);*/
+       
+        //arredondando pra cima
+        float v = 8.3f;
+        int ar = (int) Math.ceil(v);
+        System.out.println(ar);
+       
     }
 }
