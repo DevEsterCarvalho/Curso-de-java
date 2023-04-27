@@ -30,9 +30,15 @@ public class OperadoresAritmeticos {
         System.out.println(x);*/
        
         //arredondando pra cima
-        float v = 8.3f;
+        /*float v = 8.3f;
         int ar = (int) Math.ceil(v);
-        System.out.println(ar);
+        System.out.println(ar);*/
+        
+        //gerador de numeros entre 0 e 1, função random ou de onde vc quiser, como abaixo
+        //variavel "ale" de aleatorio
+        double ale = Math.random();
+        int n = (int) (15 + ale * (50-15));
+        System.out.println(n);
        
     }
 }
