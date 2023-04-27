@@ -78,7 +78,7 @@ public class TelaSoma extends javax.swing.JFrame {
                     .addComponent(btnSoma)
                     .addComponent(jLabel1)
                     .addComponent(lblSoma, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
 
         pack();
