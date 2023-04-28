@@ -12,12 +12,31 @@ package com.mycompany.operadoreslogicos;
 public class OperadoresLogicos {
 
     public static void main(String[] args) {
+        //testes
+        
+        /*int x, y, z;
+        x = 4;
+        y = 7;
+        z = 12;
+        boolean resultado;
+        resultado = (x < y && y == z)? true:false;
+        System.out.println(resultado);*/
+        
+        /*int x, y, z;
+        x = 4;
+        y = 7;
+        z = 12;
+        boolean resultado;
+        resultado = (x < y || y == z)? true:false;
+        System.out.println(resultado);*/
+        
         int x, y, z;
         x = 4;
         y = 7;
         z = 12;
         boolean resultado;
-        resultado = (x < y && y < z)? true:false;
+        resultado = (x < y ^ y == z)? true:false;
+        // dessa forma o resultado sera true, caso seja x < y ^ y < z) o resultado será false
         System.out.println(resultado);
         
         
