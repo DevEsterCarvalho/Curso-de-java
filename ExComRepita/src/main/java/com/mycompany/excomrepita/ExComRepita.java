@@ -12,10 +12,10 @@ package com.mycompany.excomrepita;
 public class ExComRepita {
 
     public static void main(String[] args) {
-        int cc = 0;
+        int cc = 1;
         do {
             System.out.println("Cambalhota " + cc);
             cc++;
-        } while(cc<4);
+        } while(cc<=4);
     }
 }
