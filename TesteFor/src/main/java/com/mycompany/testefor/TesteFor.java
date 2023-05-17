@@ -12,8 +12,16 @@ package com.mycompany.testefor;
 public class TesteFor {
 
     public static void main(String[] args) {
-        for (int cc = 0; cc <= 3; cc++) {
+        for (int cc = 0; cc <4; cc++) {
             System.out.println("Cambalhota"); 
         }
     }
+    /*
+    é a mesma coisa que:
+    int cc = 0;
+    while (cc<4) {
+        System.out.println("Cambalhota"); 
+        cc++
+    }
+    */
 }
