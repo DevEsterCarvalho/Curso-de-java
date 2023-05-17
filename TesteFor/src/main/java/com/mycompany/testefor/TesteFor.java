@@ -12,12 +12,12 @@ package com.mycompany.testefor;
 public class TesteFor {
 
     public static void main(String[] args) {
-        for (int cc = 0; cc <4; cc++) {
-            System.out.println("Cambalhota"); 
+        for (int cc = 0; cc <=100; cc+=10) {
+            System.out.println(cc); 
         }
     }
     /*
-    é a mesma coisa que:
+    em algoritmo ficaria, só mudando os números de acordo com cada teste:
     int cc = 0;
     while (cc<4) {
         System.out.println("Cambalhota"); 
