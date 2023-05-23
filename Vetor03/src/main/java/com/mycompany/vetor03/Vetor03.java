@@ -12,7 +12,7 @@ import java.util.Arrays;
  * @author ester
  */
 public class Vetor03 {
-    /*for each e vetor em ordem com classe Arrays */
+    //for each e vetor em ordem com classe Arrays e método sort
 
     public static void main(String[] args) {
         double v[] = {3.5, 2.75, 9, -4.5};
