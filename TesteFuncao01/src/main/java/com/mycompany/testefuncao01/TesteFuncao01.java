@@ -11,12 +11,23 @@ package com.mycompany.testefuncao01;
  */
 public class TesteFuncao01 {
 
-    static void soma (int a, int b){
+    /*static void soma (int a, int b){
         int s = a + b;
         System.out.println("A soma é : " + s);
     }
+    
+    forma de fazer um método sem retornar um valor (procedimento 
+    */
+        static int soma (int a, int b){
+        int s = a + b;
+        return s;
+    }
+    
+    // forma de fazer um método que retorne um valor (função) 
+        
     public static void main(String[] args) {
         System.out.println("Começou o programa");
-        soma (5,2);
+        int sm = soma (5,2);
+        System.out.println("A soma é: " + sm);
     }
 }
